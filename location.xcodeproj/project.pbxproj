@@ -13,27 +13,8 @@
 		DE41E2ED2213CFD000D0D8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE41E2EC2213CFD000D0D8D4 /* Assets.xcassets */; };
 		DE41E2F02213CFD000D0D8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE41E2EE2213CFD000D0D8D4 /* LaunchScreen.storyboard */; };
 		DE41E2F32213CFD000D0D8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41E2F22213CFD000D0D8D4 /* main.m */; };
-		DE41E2FD2213CFD100D0D8D4 /* locationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41E2FC2213CFD100D0D8D4 /* locationTests.m */; };
-		DE41E3082213CFD100D0D8D4 /* locationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE41E3072213CFD100D0D8D4 /* locationUITests.m */; };
 		DE41E31A2213D27900D0D8D4 /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = DE41E3192213D27900D0D8D4 /* Location.gpx */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DE41E2F92213CFD100D0D8D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE41E2D82213CFCF00D0D8D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE41E2DF2213CFCF00D0D8D4;
-			remoteInfo = location;
-		};
-		DE41E3042213CFD100D0D8D4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE41E2D82213CFCF00D0D8D4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE41E2DF2213CFCF00D0D8D4;
-			remoteInfo = location;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DE41E2E02213CFCF00D0D8D4 /* location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = location.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,31 +27,11 @@
 		DE41E2EF2213CFD000D0D8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE41E2F12213CFD000D0D8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE41E2F22213CFD000D0D8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DE41E2F82213CFD100D0D8D4 /* locationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE41E2FC2213CFD100D0D8D4 /* locationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locationTests.m; sourceTree = "<group>"; };
-		DE41E2FE2213CFD100D0D8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE41E3032213CFD100D0D8D4 /* locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE41E3072213CFD100D0D8D4 /* locationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locationUITests.m; sourceTree = "<group>"; };
-		DE41E3092213CFD100D0D8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE41E3192213D27900D0D8D4 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DE41E2DD2213CFCF00D0D8D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE41E2F52213CFD100D0D8D4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE41E3002213CFD100D0D8D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,8 +46,6 @@
 			children = (
 				DE41E3192213D27900D0D8D4 /* Location.gpx */,
 				DE41E2E22213CFCF00D0D8D4 /* location */,
-				DE41E2FB2213CFD100D0D8D4 /* locationTests */,
-				DE41E3062213CFD100D0D8D4 /* locationUITests */,
 				DE41E2E12213CFCF00D0D8D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				DE41E2E02213CFCF00D0D8D4 /* location.app */,
-				DE41E2F82213CFD100D0D8D4 /* locationTests.xctest */,
-				DE41E3032213CFD100D0D8D4 /* locationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,24 +72,6 @@
 				DE41E2F22213CFD000D0D8D4 /* main.m */,
 			);
 			path = location;
-			sourceTree = "<group>";
-		};
-		DE41E2FB2213CFD100D0D8D4 /* locationTests */ = {
-			isa = PBXGroup;
-			children = (
-				DE41E2FC2213CFD100D0D8D4 /* locationTests.m */,
-				DE41E2FE2213CFD100D0D8D4 /* Info.plist */,
-			);
-			path = locationTests;
-			sourceTree = "<group>";
-		};
-		DE41E3062213CFD100D0D8D4 /* locationUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE41E3072213CFD100D0D8D4 /* locationUITests.m */,
-				DE41E3092213CFD100D0D8D4 /* Info.plist */,
-			);
-			path = locationUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,42 +94,6 @@
 			productReference = DE41E2E02213CFCF00D0D8D4 /* location.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE41E2F72213CFD100D0D8D4 /* locationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE41E30F2213CFD100D0D8D4 /* Build configuration list for PBXNativeTarget "locationTests" */;
-			buildPhases = (
-				DE41E2F42213CFD100D0D8D4 /* Sources */,
-				DE41E2F52213CFD100D0D8D4 /* Frameworks */,
-				DE41E2F62213CFD100D0D8D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE41E2FA2213CFD100D0D8D4 /* PBXTargetDependency */,
-			);
-			name = locationTests;
-			productName = locationTests;
-			productReference = DE41E2F82213CFD100D0D8D4 /* locationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE41E3022213CFD100D0D8D4 /* locationUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE41E3122213CFD100D0D8D4 /* Build configuration list for PBXNativeTarget "locationUITests" */;
-			buildPhases = (
-				DE41E2FF2213CFD100D0D8D4 /* Sources */,
-				DE41E3002213CFD100D0D8D4 /* Frameworks */,
-				DE41E3012213CFD100D0D8D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE41E3052213CFD100D0D8D4 /* PBXTargetDependency */,
-			);
-			name = locationUITests;
-			productName = locationUITests;
-			productReference = DE41E3032213CFD100D0D8D4 /* locationUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,14 +105,6 @@
 				TargetAttributes = {
 					DE41E2DF2213CFCF00D0D8D4 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					DE41E2F72213CFD100D0D8D4 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = DE41E2DF2213CFCF00D0D8D4;
-					};
-					DE41E3022213CFD100D0D8D4 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = DE41E2DF2213CFCF00D0D8D4;
 					};
 				};
 			};
@@ -227,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				DE41E2DF2213CFCF00D0D8D4 /* location */,
-				DE41E2F72213CFD100D0D8D4 /* locationTests */,
-				DE41E3022213CFD100D0D8D4 /* locationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,20 +138,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE41E2F62213CFD100D0D8D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE41E3012213CFD100D0D8D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -272,36 +151,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE41E2F42213CFD100D0D8D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE41E2FD2213CFD100D0D8D4 /* locationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE41E2FF2213CFD100D0D8D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE41E3082213CFD100D0D8D4 /* locationUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE41E2FA2213CFD100D0D8D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE41E2DF2213CFCF00D0D8D4 /* location */;
-			targetProxy = DE41E2F92213CFD100D0D8D4 /* PBXContainerItemProxy */;
-		};
-		DE41E3052213CFD100D0D8D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE41E2DF2213CFCF00D0D8D4 /* location */;
-			targetProxy = DE41E3042213CFD100D0D8D4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE41E2E92213CFCF00D0D8D4 /* Main.storyboard */ = {
@@ -471,80 +321,6 @@
 			};
 			name = Release;
 		};
-		DE41E3102213CFD100D0D8D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K294UE6ZZL;
-				INFOPLIST_FILE = locationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = IData.locationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/location.app/location";
-			};
-			name = Debug;
-		};
-		DE41E3112213CFD100D0D8D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K294UE6ZZL;
-				INFOPLIST_FILE = locationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = IData.locationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/location.app/location";
-			};
-			name = Release;
-		};
-		DE41E3132213CFD100D0D8D4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K294UE6ZZL;
-				INFOPLIST_FILE = locationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = IData.locationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = location;
-			};
-			name = Debug;
-		};
-		DE41E3142213CFD100D0D8D4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K294UE6ZZL;
-				INFOPLIST_FILE = locationUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = IData.locationUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = location;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -562,24 +338,6 @@
 			buildConfigurations = (
 				DE41E30D2213CFD100D0D8D4 /* Debug */,
 				DE41E30E2213CFD100D0D8D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE41E30F2213CFD100D0D8D4 /* Build configuration list for PBXNativeTarget "locationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE41E3102213CFD100D0D8D4 /* Debug */,
-				DE41E3112213CFD100D0D8D4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE41E3122213CFD100D0D8D4 /* Build configuration list for PBXNativeTarget "locationUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE41E3132213CFD100D0D8D4 /* Debug */,
-				DE41E3142213CFD100D0D8D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
